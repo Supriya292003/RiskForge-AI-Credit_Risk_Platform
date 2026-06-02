@@ -1,21 +1,28 @@
-<p align="left">
-  <img src="docs/logo.png" width="180"/>
+<p align="center">
+  <img src="docs/logo.png" width="120" alt="RiskForge AI Logo">
+</p>
+
 <h1 align="center">RiskForge AI</h1>
-  <strong>Explainable Credit Risk Intelligence Platform</strong>
+
+<p align="center">
+  <b>Explainable Credit Risk Intelligence Platform</b>
+</p>
+
+<p align="center">
+AI-powered underwriting, explainable risk assessment, business rule generation, and conversational analytics.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/React-18-cyan?style=flat-square&logo=react&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=flat-square&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/LightGBM%20%2F%20XGBoost-ML-orange?style=flat-square&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/LightGBM-XAI-orange?style=flat-square" />
   <img src="https://img.shields.io/badge/SHAP-Explainable%20AI-red?style=flat-square" />
-  <img src="https://img.shields.io/badge/Gemini%20AI-LLM-purple?style=flat-square&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini-AI-purple?style=flat-square" />
+  <img src="https://img.shields.io/badge/Docker-Ready-blue?style=flat-square&logo=docker" />
+  <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=flat-square&logo=sqlite" />
 </p>
 
----
 
 ## 📖 Project Overview
 
