@@ -53,16 +53,29 @@ Furthermore, under modern regulations such as the **GDPR (Right to Explanation)*
 
 ## 🖥️ Demo Screenshots
 
-Here is a preview of the interactive dashboard showing the different modules:
+Here is a visual preview of the RiskForge AI platform interfaces:
 
-### 1. Unified Risk Dashboard
-The system landing dashboard provides immediate system health status, feature cards, and rapid access to scoring pipelines.
-![RiskForge AI Dashboard](docs/dashboard_screenshot.png)
+### 1. Home Landing Portal
+A sleek, modern interface welcoming credit risk analysts, with quick links to launch the underwriting panel and summaries of core pillars.
+![Home Landing Portal](docs/home_landing.png)
 
-### 2. SHAP Explainability & Waterfall Plots
-Every applicant prediction generates a real-time waterfall plot, detailing how individual attributes push the credit risk score relative to the baseline population.
-![SHAP Waterfall Analysis](docs/waterfall_screenshot.png)
+### 2. EDA Dashboard
+Provides high-level insights on historical data defaults, age distributions, outlier statistics, and key banker-focused risk descriptions.
+![EDA Dashboard](docs/eda_dashboard.png)
 
+### 3. SHAP Explainability (XAI)
+Displays local feature-attribution waterfall charts dynamically for every scored applicant, showing positive and negative risk drivers relative to the baseline.
+![SHAP Waterfall Analysis](docs/shap_waterfall.png)
+
+### 4. Model Metrics & Evaluation
+Renders performance statistics, validation details (CV ROC-AUC vs Test ROC-AUC), ROC curves, confusion matrices, and classifier rationale tables.
+![Model Performance Metrics](docs/model_metrics.png)
+
+### 5. Platform Architecture
+Visualizes the decoupled architecture and integration flow between the React frontend, FastAPI server, ML engines, and SQLite data layer.
+![System Architecture](docs/architecture.png)
+
+---
 ---
 
 ## 🏗️ System Architecture
