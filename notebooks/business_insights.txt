@@ -1,0 +1,5 @@
+1. High Class Imbalance: The target distribution shows a default rate of ~8.2%, highlighting the need for specialized class weighting during training.
+2. Age Risk Profile: Younger applicants (ages 20-30) exhibit significantly higher default rates compared to older demographics (ages 50-70). Risk declines monotonically with age.
+3. Income Ratios: Defaulted clients tend to have a higher median Credit-to-Income ratio, indicating that larger loans relative to income present higher repayment stress.
+4. External Score Power: EXT_SOURCE_2 and EXT_SOURCE_3 exhibit strong negative correlations with TARGET (-0.35 to -0.45), confirming they are the most powerful individual predictors of creditworthiness.
+5. Employment Stability: Pensioners/retired applicants show lower default frequencies than working class individuals, likely due to stable pension income streams and older age profiles.

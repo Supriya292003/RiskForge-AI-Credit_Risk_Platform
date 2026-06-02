@@ -1,0 +1,20 @@
+# Build stage for React Frontend
+FROM node:18-slim
+
+# Set work directory
+WORKDIR /app
+
+# Copy dependency files
+COPY package.json package-lock.json* ./
+
+# Install npm dependencies
+RUN npm install
+
+# Copy source code
+COPY . .
+
+# Expose port (as configured in vite.config.js)
+EXPOSE 3000
+
+# Start Vite development server
+CMD ["npm", "run", "dev"]

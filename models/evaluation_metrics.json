@@ -1,0 +1,25 @@
+{
+    "holdout_test": {
+        "accuracy": 0.6991,
+        "precision": 0.1679,
+        "recall": 0.6896,
+        "f1_score": 0.2701,
+        "roc_auc": 0.7606,
+        "pr_auc": 0.2534
+    },
+    "cross_validation": {
+        "cv_roc_auc_mean": 0.7583,
+        "cv_roc_auc_std": 0.0044,
+        "cv_pr_auc_mean": 0.2445,
+        "cv_pr_auc_std": 0.0078,
+        "cv_f1_mean": 0.2675,
+        "cv_precision_mean": 0.1664,
+        "cv_recall_mean": 0.6819
+    },
+    "confusion_matrix": {
+        "true_negatives": 39572,
+        "false_positives": 16966,
+        "false_negatives": 1541,
+        "true_positives": 3424
+    }
+}

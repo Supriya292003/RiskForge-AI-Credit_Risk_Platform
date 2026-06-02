@@ -1,0 +1,50 @@
+[
+    {
+        "rule": "External Credit Score 3 <= $1 AND External Credit Score 2 <= $0 AND External Credit Score 3 <= $0",
+        "default_probability": 0.8,
+        "risk_band": "High Risk",
+        "sample_size": 0
+    },
+    {
+        "rule": "External Credit Score 3 <= $1 AND External Credit Score 2 <= $0 AND External Credit Score 3 > $0",
+        "default_probability": 0.665,
+        "risk_band": "High Risk",
+        "sample_size": 0
+    },
+    {
+        "rule": "External Credit Score 3 <= $1 AND External Credit Score 2 > $0 AND External Credit Score 3 <= $0",
+        "default_probability": 0.63,
+        "risk_band": "High Risk",
+        "sample_size": 0
+    },
+    {
+        "rule": "External Credit Score 3 > $1 AND External Credit Score 2 <= $0 AND Gender (F) is No",
+        "default_probability": 0.568,
+        "risk_band": "High Risk",
+        "sample_size": 1
+    },
+    {
+        "rule": "External Credit Score 3 <= $1 AND External Credit Score 2 > $0 AND External Credit Score 3 > $0",
+        "default_probability": 0.433,
+        "risk_band": "High Risk",
+        "sample_size": 1
+    },
+    {
+        "rule": "External Credit Score 3 > $1 AND External Credit Score 2 <= $0 AND Gender (F) is Yes",
+        "default_probability": 0.417,
+        "risk_band": "High Risk",
+        "sample_size": 0
+    },
+    {
+        "rule": "External Credit Score 3 > $1 AND External Credit Score 2 > $0 AND External Credit Score 2 <= $1",
+        "default_probability": 0.314,
+        "risk_band": "High Risk",
+        "sample_size": 0
+    },
+    {
+        "rule": "External Credit Score 3 > $1 AND External Credit Score 2 > $0 AND External Credit Score 2 > $1",
+        "default_probability": 0.213,
+        "risk_band": "Medium Risk",
+        "sample_size": 0
+    }
+]

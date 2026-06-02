@@ -1,0 +1,77 @@
+[
+    {
+        "technical_name": "EXT_SOURCE_3",
+        "feature": "External Credit Score 3",
+        "importance": 0.1012
+    },
+    {
+        "technical_name": "EXT_SOURCE_2",
+        "feature": "External Credit Score 2",
+        "importance": 0.0934
+    },
+    {
+        "technical_name": "NAME_EDUCATION_TYPE_Higher education",
+        "feature": "Education Level (Higher education)",
+        "importance": 0.0546
+    },
+    {
+        "technical_name": "NAME_INCOME_TYPE_Working",
+        "feature": "Income Type (Working)",
+        "importance": 0.0489
+    },
+    {
+        "technical_name": "CODE_GENDER_F",
+        "feature": "Gender (F)",
+        "importance": 0.0395
+    },
+    {
+        "technical_name": "EXT_SOURCE_1",
+        "feature": "External Credit Score 1",
+        "importance": 0.0315
+    },
+    {
+        "technical_name": "CODE_GENDER_M",
+        "feature": "Gender (M)",
+        "importance": 0.0313
+    },
+    {
+        "technical_name": "FLAG_OWN_CAR_Yes",
+        "feature": "Owns Car (Yes)",
+        "importance": 0.0305
+    },
+    {
+        "technical_name": "PREV_REFUSED_COUNT",
+        "feature": "Refused Previous Applications",
+        "importance": 0.0264
+    },
+    {
+        "technical_name": "FLAG_OWN_CAR_No",
+        "feature": "Owns Car (No)",
+        "importance": 0.0263
+    },
+    {
+        "technical_name": "NAME_CONTRACT_TYPE_Revolving loans",
+        "feature": "Contract Type (Revolving loans)",
+        "importance": 0.0242
+    },
+    {
+        "technical_name": "NAME_CONTRACT_TYPE_Cash loans",
+        "feature": "Contract Type (Cash loans)",
+        "importance": 0.0224
+    },
+    {
+        "technical_name": "NAME_INCOME_TYPE_Pensioner",
+        "feature": "Income Type (Pensioner)",
+        "importance": 0.0222
+    },
+    {
+        "technical_name": "NAME_EDUCATION_TYPE_Secondary / secondary special",
+        "feature": "Education Level (Secondary / secondary special)",
+        "importance": 0.0207
+    },
+    {
+        "technical_name": "DAYS_BIRTH",
+        "feature": "Age (Years)",
+        "importance": 0.0196
+    }
+]
