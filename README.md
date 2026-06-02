@@ -1,13 +1,12 @@
 <p align="left">
   <img src="docs/logo.png" width="180"/>
-</p>
 
 <h1 align="center">RiskForge AI</h1>
 
 <p align="center">
   <strong>Explainable Credit Risk Intelligence Platform</strong>
 </p>
-
+</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/React-18-cyan?style=flat-square&logo=react&logoColor=white" />
