@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="docs/logo.png" width="180"/>
 </p>
 
@@ -67,13 +67,6 @@ Provides high-level insights on historical data defaults, age distributions, out
 Displays local feature-attribution waterfall charts dynamically for every scored applicant, showing positive and negative risk drivers relative to the baseline.
 ![SHAP Waterfall Analysis](docs/shap_waterfall.png)
 
-### 4. Model Metrics & Evaluation
-Renders performance statistics, validation details (CV ROC-AUC vs Test ROC-AUC), ROC curves, confusion matrices, and classifier rationale tables.
-![Model Performance Metrics](docs/model_metrics.png)
-
-### 5. Platform Architecture
-Visualizes the decoupled architecture and integration flow between the React frontend, FastAPI server, ML engines, and SQLite data layer.
-![System Architecture](docs/architecture.png)
 
 ---
 ---
